@@ -2,5 +2,7 @@ set number
 set laststatus=2
 set wildmenu
 set cursorline
-syntax enable
+if has('syntax')
+   syntax enable
+endif
 set incsearch
