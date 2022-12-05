@@ -1,0 +1,6 @@
+set number
+set laststatus=2
+set wildmenu
+set cursorline
+syntax enable
+set incsearch
